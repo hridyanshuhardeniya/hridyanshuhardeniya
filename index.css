@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}  
+ 
+body {
+      background-color: rgb(0, 0, 0);
+}
+  /* logo  */
+   
+   .navarea {
+             background-color: rgb(0, 0, 0);
+            display: block;
+   }
+
+   .lan {
+        margin-left: 1300px ;
+        margin-bottom: 20px;
+   }
+   .log {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+        color: red;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+   } 
+
+    #home {  display: flex;
+            flex-direction: column;
+            color: aliceblue;
+            margin-top: 100px;
+            align-items: center;
+            font-size: 2rem;
+          
+          
+  
+    }
+
+    #home::before{ 
+        content: "";
+        position: absolute;
+        background: url('/images\ folder/netflixbg.jpg') no-repeat center center/cover;
+        height: 642px;
+        top:0px;
+        left:0px;
+        width: 100%;
+        z-index: -1;
+        opacity:0.86;
+    } 
+
+    #searched {
+               border: 2px solid ;
+               margin-top: 29px;
+               width: 40;
+               color: rgb(0, 0, 0);
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+               background-color: azure;
+    }  
+
+    /* button  */
+
+    .btn {
+          margin-top: 10px;
+          background-color: red;
+          border: red;
+          color: whitesmoke;
+          padding: 20px;
+          font-size: 1rem;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .btn:hover {
+                
+                background-color: rgb(189, 7, 7);
+                
+    }
+      
+.t { display: flex;
+    margin-top: 150px;
+
+     
+}
+.ti {
+      display: flex;
+      flex-direction: column
+      ;
+      color: whitesmoke;
+      font-size: larger;
+    margin-left: 550px;
+    margin-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}  
+ 
+#im {
+      display: inline-flex;
+      margin-left: 1250px;
+} 
+
+ .n {
+     display: flex;
+     flex-direction: column;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+     
+ } 
+  
+  /* footer  */
+   
+   #exit {
+           color: blueviolet;
+           display: flex;
+           margin-top: 34px;
+           align-items: center;
+           justify-content: center;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+           background-color: whitesmoke;
+           border: 2px solid whitesmoke;
+           border-radius: 345px;
+   }
+ 
